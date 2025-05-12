@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Random Landing</title>
+
+    <!-- “base” styles that never change (layout only) -->
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header,
+        main,
+        footer {
+            padding: 2rem;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cta {
+            padding: 1rem 2rem;
+            font-size: 1.25rem;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- The random theme gets injected here -->
+    <script defer src="js/chooseTheme.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">ACME Inc.</h1>
+    </header>
+
+    <main>
+        <h2 class="headline">Everything you need to ship faster.</h2>
+        <button class="cta">Get Started</button>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#">Privacy</a> • <a href="#">Contact</a>
+        </nav>
+    </footer>
+</body>
+
+</html>

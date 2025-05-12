@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+:root {
+    --bg: #0d021f;
+    --fg: #e0ff4f;
+    --accent: #ff0080;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: Orbitron, sans-serif;
+}
+
+.logo {
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.headline {
+    font-size: clamp(2rem, 4vw + 1rem, 4rem);
+}
+
+.cta {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 2px;
+}
+
+a {
+    color: var(--accent);
+}

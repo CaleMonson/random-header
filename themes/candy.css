@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+:root {
+    --bg: #fffbf2;
+    --fg: #ff5d8f;
+    --accent: #31c48d;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Fredoka One", cursive;
+}
+
+.logo {
+    font-size: 2.5rem;
+}
+
+.headline {
+    font-size: 3rem;
+    color: var(--accent);
+}
+
+.cta {
+    background: var(--fg);
+    color: #fff;
+    border-radius: 50px;
+}
+
+a {
+    color: var(--fg);
+}

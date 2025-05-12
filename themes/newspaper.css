@@ -1,0 +1,38 @@
+:root {
+    --bg: #fff;
+    --fg: #111;
+    --accent: #b00;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Times New Roman", serif;
+    line-height: 1.6;
+}
+
+header,
+footer {
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.headline {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.cta {
+    border: 2px solid var(--accent);
+    background: none;
+    color: var(--accent);
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
